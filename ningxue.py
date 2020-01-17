@@ -490,7 +490,14 @@ def restart_program():
 #MAIN
 def bot(op):
     try:
-
+        print(type(op))
+        print("\n---\n"
+        for data in op:
+            print("\n---\n"
+            print(type(data))
+            print(data)
+        print("\n---\n"
+            
         if op.type == 0:
             return
 
