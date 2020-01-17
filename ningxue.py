@@ -545,7 +545,8 @@ def print_op(op):
             print("\n")
             
         if op.revision is not None:
-            print("op.revision:\t"+op.revision)
+            #print("op.revision:\t"+op.revision)
+            print("revision")
             print("\n")
         else:
             print("revision is None")
