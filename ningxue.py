@@ -10,11 +10,12 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
+#LINE API
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
 vipro.login(token='Token')
 vipro.loginResult()
-print "成功登入Line機器人，版本1.0.3"
+print "成功登入Line機器人"
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -101,7 +102,8 @@ groupMessage ="""
 ║         ღ Line機器人 ღ
 ╚═══════════════
 """
-vip="ID" //ID
+#ID
+vip="ID" 
 
 setMessage ="""
 ╔═══════════════
@@ -198,7 +200,7 @@ helpMessage ="""
 KAC=[vipro]
 mid = vipro.getProfile().mid
 Bots=[mid]
-//ID
+#ID
 Creator=["ID"]
 admin=["ID"]
 
@@ -484,7 +486,7 @@ def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
-
+#MAIN
 def bot(op):
     try:
 
