@@ -537,6 +537,14 @@ def print_op(op):
             print("message is None")
             print("\n")
             
+        if op.regSeq is not None:
+            print("op.regSeq:\t")
+            print(op.regSeq)
+            print("\n")
+        else:
+            print("regSeq is None")
+            print("\n")
+            
         if op.type is not None:
             print("op.type:\t"+str(op.type))
             print("\n")
@@ -545,8 +553,8 @@ def print_op(op):
             print("\n")
             
         if op.revision is not None:
-            #print("op.revision:\t"+op.revision)
-            print("revision")
+            print("op.revision:\t")
+            print(op.revision)
             print("\n")
         else:
             print("revision is None")
