@@ -491,25 +491,25 @@ def restart_program():
 def bot(op):
     try:
         if op.status is not None:
-        print("op.status:\t"+str(op.status))
+            print("op.status:\t"+str(op.status))
         if op.checksum is not None:
-        print("op.checksum:\t"+op.checksum)
+            print("op.checksum:\t"+op.checksum)
         if op.param3 is not None:
-        print("op.param3:\t"+str(op.param3))
+            print("op.param3:\t"+str(op.param3))
         if op.param2 is not None:
-        print("op.param2:\t"+str(op.param2))
+            print("op.param2:\t"+str(op.param2))
         if op.param1 is not None:
-        print("op.param1:\t"+str(op.param1))
+            print("op.param1:\t"+str(op.param1))
         if op.createdTime is not None:
-        print("op.createdTime:\t"+str(op.createdTime))
+            print("op.createdTime:\t"+str(op.createdTime))
         if op.message is not None:
-        print("op.message:\t"+str(op.message))
+            print("op.message:\t"+str(op.message))
         if op.regSeq is not None:
-        print("op.regSeq:\t"+str(op.regSeq))
+            print("op.regSeq:\t"+str(op.regSeq))
         if op.type is not None:
-        print("op.type:\t"+str(op.type))
+            print("op.type:\t"+str(op.type))
         if op.revision is not None:
-        print("op.revision:\t"+op.revision)
+            print("op.revision:\t"+op.revision)
         
         if op.type == 0:
             return
