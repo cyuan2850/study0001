@@ -486,10 +486,8 @@ def summon(to, nama):
 def restart_program():
     python = sys.executable
     os.execl(python, python, * sys.argv)
-
-#MAIN
-def bot(op):
-    try:
+    
+def print_op(op):
         if op.status is not None:
             print("op.status:\t"+str(op.status))
             print("\n")
@@ -559,7 +557,11 @@ def bot(op):
         else:
             print("revision is None")
             print("\n")
-        
+
+#MAIN
+def bot(op):
+    try:
+        print_op(op)
         if op.type == 0:
             return
 
