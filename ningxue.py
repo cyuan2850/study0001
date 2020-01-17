@@ -488,6 +488,10 @@ def restart_program():
     os.execl(python, python, * sys.argv)
     
 def print_op(op):
+        print("\n*****\n")
+        print(str(op))
+        print("\n*****\n")
+        
         if op.status is not None:
             print("op.status:\t"+str(op.status))
             print("\n")
