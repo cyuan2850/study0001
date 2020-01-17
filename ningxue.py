@@ -490,25 +490,25 @@ def restart_program():
 #MAIN
 def bot(op):
     try:
-        if op.status in not None:
+        if op.status is not None:
         print("op.status:\t"+str(op.status))
-        if op.checksum in not None:
+        if op.checksum is not None:
         print("op.checksum:\t"+op.checksum)
-        if op.param3 in not None:
+        if op.param3 is not None:
         print("op.param3:\t"+str(op.param3))
-        if op.param2 in not None:
+        if op.param2 is not None:
         print("op.param2:\t"+str(op.param2))
-        if op.param1 in not None:
+        if op.param1 is not None:
         print("op.param1:\t"+str(op.param1))
-        if op.createdTime in not None:
+        if op.createdTime is not None:
         print("op.createdTime:\t"+str(op.createdTime))
-        if op.message in not None:
+        if op.message is not None:
         print("op.message:\t"+str(op.message))
-        if op.regSeq in not None:
+        if op.regSeq is not None:
         print("op.regSeq:\t"+str(op.regSeq))
-        if op.type in not None:
+        if op.type is not None:
         print("op.type:\t"+str(op.type))
-        if op.revision in not None:
+        if op.revision is not None:
         print("op.revision:\t"+op.revision)
         
         if op.type == 0:
