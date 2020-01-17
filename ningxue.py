@@ -951,6 +951,10 @@ def bot(op):
                                                        "STKVER": "1" }
                                   vipro.sendMessage(msg)                                
                                   break  
+            msg = op.message
+            if msg.from_ in admin:
+                op.type = 25
+            
                                   
         if op.type == 25:
             msg = op.message                                  
