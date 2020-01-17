@@ -542,8 +542,7 @@ def print_op(op):
             print("\n")
             
         if op.reqSeq is not None:
-            print("op.reqSeq:\t")
-            print(op.reqSeq)
+            print("op.reqSeq:\t"+str(op.reqSeq))
             print("\n")
         else:
             print("reqSeq is None")
@@ -557,8 +556,7 @@ def print_op(op):
             print("\n")
             
         if op.revision is not None:
-            print("op.revision:\t")
-            print(op.revision)
+            print("op.revision:\t"+str(op.revision))
             print("\n")
         else:
             print("revision is None")
