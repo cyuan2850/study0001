@@ -490,13 +490,17 @@ def restart_program():
 #MAIN
 def bot(op):
     try:
-        print(type(op))
-        print("\n---\n"
-        for data in op:
-            print("\n---\n"
-            print(type(data))
-            print(data)
-        print("\n---\n"
+    
+        print("op.status:\t"+str(op.status))
+        print("op.checksum:\t"+op.checksum)
+        print("op.param3:\t"+str(op.param3))
+        print("op.param2:\t"+str(op.param2))
+        print("op.param1:\t"+str(op.param1))
+        print("op.createdTime:\t"+str(op.createdTime))
+        print("op.message:\t"+str(op.message))
+        print("op.regSeq:\t"+str(op.regSeq))
+        print("op.type:\t"+str(op.type))
+        print("op.revision:\t"+op.revision)
             
         if op.type == 0:
             return
