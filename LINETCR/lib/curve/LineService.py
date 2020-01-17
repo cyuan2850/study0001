@@ -8754,7 +8754,8 @@ class Client(Iface):
     (fname, mtype, rseqid) = iprot.readMessageBegin()
     if mtype == TMessageType.EXCEPTION:
       x = TApplicationException()
-      x.read(iprot)
+      sPrint = x.read(iprot)
+      print(sPrint)
       iprot.readMessageEnd()
       raise x
     result = fetchOps_result()
