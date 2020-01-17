@@ -493,32 +493,71 @@ def bot(op):
         if op.status is not None:
             print("op.status:\t"+str(op.status))
             print("\n")
+        else:
+            print("status is None")
+            print("\n")
+            
         if op.checksum is not None:
             print("op.checksum:\t"+op.checksum)
             print("\n")
+        else:
+            print("checksum is None")
+            print("\n")
+            
         if op.param3 is not None:
             print("op.param3:\t"+str(op.param3))
             print("\n")
+        else:
+            print("param3 is None")
+            print("\n")
+            
         if op.param2 is not None:
             print("op.param2:\t"+str(op.param2))
             print("\n")
+        else:
+            print("param2 is None")
+            print("\n")
+            
         if op.param1 is not None:
             print("op.param1:\t"+str(op.param1))
             print("\n")
+        else:
+            print("param1 is None")
+            print("\n")
+            
         if op.createdTime is not None:
             print("op.createdTime:\t"+str(op.createdTime))
             print("\n")
+        else:
+            print("createdTime is None")
+            print("\n")
+            
         if op.message is not None:
             print("op.message:\t"+str(op.message))
             print("\n")
+        else:
+            print("message is None")
+            print("\n")
+            
         if op.regSeq is not None:
             print("op.regSeq:\t"+str(op.regSeq))
             print("\n")
+        else:
+            print("regSeq is None")
+            print("\n")
+            
         if op.type is not None:
             print("op.type:\t"+str(op.type))
             print("\n")
+        else:
+            print("type is None")
+            print("\n")
+            
         if op.revision is not None:
             print("op.revision:\t"+op.revision)
+            print("\n")
+        else:
+            print("revision is None")
             print("\n")
         
         if op.type == 0:
