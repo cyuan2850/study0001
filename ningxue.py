@@ -13,7 +13,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 #LINE API
 vipro = LINETCR.LINE()
 #vipro.login(qr=True)
-vipro.login(token='Token')
+vipro.login(token='EN2DDKFD1yKMYO8hLis2.KbQZrODK7ROWuoOt/zP+GG.sh2RiDrtwon0iGDkSTsh2xN2tPoz5jqwVxXRbS8P+U8=')
 vipro.loginResult()
 print "成功登入Line機器人"
 
@@ -102,8 +102,9 @@ groupMessage ="""
 ║         ღ Line機器人 ღ
 ╚═══════════════
 """
+
 #ID
-vip="ID" 
+vip="ID"
 
 setMessage ="""
 ╔═══════════════
